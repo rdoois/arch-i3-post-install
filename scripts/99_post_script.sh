@@ -8,3 +8,6 @@ chsh -s $(which fish)
 
 sudo ln -s $(which nvim) /usr/local/bin/vi
 sudo ln -s $(which nvim) /usr/local/bin/vim
+
+echo "" >> $HOME/.config/fish/config.fish
+cat ./content/alias.txt >> $HOME/.config/fish/config.fish
