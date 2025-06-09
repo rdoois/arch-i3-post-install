@@ -21,3 +21,7 @@ for plugin in "${!plugins[@]}"; do
  	asdf install $plugin $version
  	asdf set -u $plugin $version
 done
+
+cat ./content/asdf.txt >> ~/.config/fish/config.fish
+
+asdf completion fish > ~/.config/fish/completions/asdf.fish
