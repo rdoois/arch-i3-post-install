@@ -5,3 +5,6 @@ if [ ! -f "$HOME/.ssh/id_ed25519" ]; then
 fi
 
 chsh -s $(which fish)
+
+sudo ln -s $(which nvim) /usr/local/bin/vi
+sudo ln -s $(which nvim) /usr/local/bin/vim
