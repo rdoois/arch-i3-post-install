@@ -11,7 +11,6 @@ declare -A plugins=(
 	["nodejs"]="latest"
 	["python"]="latest"
 	["terraform"]="latest"
-	["yarn"]="latest"
 )
 
 
